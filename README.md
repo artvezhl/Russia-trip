@@ -1,7 +1,7 @@
 # Russia-trip
 Yandex Praktikum project about trip through Russia
 
-[Ссылка на проект](https://mesto-russia-d4j1fi22y.vercel.app/)
+[Ссылка на проект](https://russia-trip-9o55aage2.vercel.app/)
 
 ## Учебный проект, в котором реализованы: 
 - разметка
