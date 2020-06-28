@@ -1,0 +1,87 @@
+.page {
+  background-color: #2A2C2F;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (min-width: 375px) {
+  .page {
+    padding-top: 1.175rem;
+    padding-right: 1.1rem;
+    padding-left: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .page {
+    padding-top: 1.35rem;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 512px) {
+  .page {
+    padding-top: 1.525rem;
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 635px) {
+  .page {
+    padding-top: 1.7rem;
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page {
+    padding-top: 1.875rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 832px) {
+  .page {
+    padding-right: 1.9rem;
+    padding-bottom: 1.9rem;
+    padding-left: 1.9rem;
+  }
+}
+
+@media screen and (min-width: 896px) {
+  .page {
+    padding-right: 2.3rem;
+    padding-bottom: 2.3rem;
+    padding-left: 2.3rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .page {
+    padding-right: 2.7rem;
+    padding-bottom: 2.7rem;
+    padding-left: 2.7rem;  
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .page {
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+  }
+}

@@ -1,0 +1,10 @@
+@import url(_type/video__icon_type_play.css);
+
+.video__icon {
+  width: 41px;
+  height: 41px;
+  top: 1rem;
+  left: 1rem;
+  z-index: 105;
+  margin-bottom: auto;
+}

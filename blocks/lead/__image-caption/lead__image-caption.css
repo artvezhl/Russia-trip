@@ -1,0 +1,18 @@
+.lead__image-caption {
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  line-height: 0.75rem;
+  letter-spacing: 0.15em;
+  font-weight: normal;
+  margin: 0;
+  text-align: left;
+  padding-right: 0.125rem;
+  padding-top: 0.25rem;
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__image-caption {
+    padding-top: 0.5rem;
+  }  
+}

@@ -1,0 +1,12 @@
+.footer__item {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__item {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 1.125rem;
+  }
+}

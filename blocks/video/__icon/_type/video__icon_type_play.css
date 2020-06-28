@@ -1,0 +1,6 @@
+@media screen and (min-width: 1024px) {
+  .video__icon_type_play:hover {
+    animation: play 0.5s linear infinite;
+  }
+}
+

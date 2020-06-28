@@ -1,0 +1,12 @@
+@import url(__title/intro__title.css);
+@import url(__blockquote/intro__blockquote.css);
+@import url(__russia-stats/intro__russia-stats.css);
+@import url(__quote/intro__quote.css);
+@import url(__russia-stat/intro__russia-stat.css);
+@import url(__quote-bold/intro__quote-bold.css);
+
+.intro {
+  font-style: normal;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}

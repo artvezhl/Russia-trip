@@ -1,0 +1,72 @@
+.cover__subtitle {
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  text-align: center;
+  padding-bottom: 1.5rem;
+  margin: 0;
+  z-index: 100;
+  max-width: 275px;
+}
+
+@media screen and (min-width: 375px) {
+  .cover__subtitle {
+    padding-bottom: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .cover__subtitle {
+    font-size: 0.9375rem;
+    line-height: 1.2125rem;
+    padding-bottom: 1.75rem; 
+    max-width: 382px;
+  }
+}
+
+@media screen and (min-width: 512px) {
+  .cover__subtitle {
+    font-size: 1rem;
+    line-height: 1.3625rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .cover__subtitle {
+    font-size: 1.0625rem;
+    line-height: 1.5125rem;
+    padding-bottom: 2.25rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cover__subtitle {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    padding-bottom: 2.5rem;
+  }  
+}
+
+@media screen and (min-width: 832px) {
+  .cover__subtitle {
+    padding-bottom: 2.65rem;
+  }
+}
+
+@media screen and (min-width: 896px) {
+  .cover__subtitle {
+    padding-bottom: 2.8rem;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .ccover__subtitle {
+    padding-bottom: 2.9rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__subtitle {
+    padding-bottom: 2.5rem;
+  }  
+}

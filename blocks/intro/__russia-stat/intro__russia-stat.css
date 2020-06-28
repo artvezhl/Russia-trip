@@ -1,0 +1,12 @@
+.intro__russia-stat {
+  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.1875rem;
+}
+
+@media screen and (min-width: 768px) {
+  .intro__russia-stat {
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+  }  
+}

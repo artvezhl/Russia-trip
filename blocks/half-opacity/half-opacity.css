@@ -1,0 +1,29 @@
+.half-opacity {
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.half-opacity::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: .5;
+}
+
+@media screen and (min-width: 1024px) {
+  .half-opacity:hover::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: .8;
+  }
+}

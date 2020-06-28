@@ -1,0 +1,73 @@
+.content-title {
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.09em;
+  padding-bottom: 0.75rem;
+  margin: 0;
+  text-align: center;
+  z-index: 100;
+  align-self: center;
+}
+
+@media screen and (min-width: 425px) {
+  .content-title {
+    font-size: 2.2rem;
+    padding-bottom: 0.78rem;
+  }
+}
+
+@media screen and (min-width: 512px) {
+  .content-title {
+    font-size: 2.4rem;
+    padding-bottom: 0.81rem;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .content-title {
+    font-size: 2.6rem;
+    padding-bottom: 0.83rem;
+    width: 550px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .content-title {
+    font-size: 2.625rem;
+    padding-bottom: 0.85rem;
+    width: 550px;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 832px) {
+  .content-title {
+    font-size: 3.2rem;
+    padding-bottom: 1.1rem;
+    width: 600px;
+  }
+}
+
+@media screen and (min-width: 896px) {
+  .content-title {
+    font-size: 3.8rem;
+    padding-bottom: 1.3rem;
+    width: 700px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .content-title {
+    font-size: 4.3rem;
+    padding-bottom: 1.4rem;
+    width: 800px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content-title {
+    font-size: 4.5rem;
+    padding-bottom: 1.5rem;
+    width: 800px;
+  }
+}

@@ -1,0 +1,16 @@
+@import url(__image/photo-grid__image.css);
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  grid-gap: 0.5rem;
+  font-style: normal;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 375px) {
+  .photo-grid {
+    grid-gap: 1rem;
+  }
+}

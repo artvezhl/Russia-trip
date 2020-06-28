@@ -1,0 +1,11 @@
+.block-padding {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .block-padding {
+    padding-top: 3.1875rem;
+    padding-bottom: 3.1875rem;
+  }
+}

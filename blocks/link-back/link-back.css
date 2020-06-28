@@ -1,0 +1,24 @@
+@media screen and (min-width: 1024px) {
+  .link-back {
+    text-decoration: none;
+    position: relative;
+    transition: all 0.6s;
+  }
+  
+  .link-back:before {
+    content: "";
+    width: 0;
+    height: 0.07em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ffffff;
+    transition: all 0.3s;
+  }
+  
+  .link-back:hover:before {
+    width: 100%;
+    left: 0;
+    background: #ffffff;
+  }
+}
